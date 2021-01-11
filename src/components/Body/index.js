@@ -7,6 +7,7 @@ import styles from './styles';
 import { colors } from '../../styles';
 
 import Card from '../Card';
+import MenuItem from '../MenuItem';
 
 export default function Body() {
     return(
@@ -70,6 +71,32 @@ export default function Body() {
                         last = { true }
                     />
                 </ScrollView>
+            </View>
+
+            <View style={ styles.menu }>
+                <MenuItem
+                    color = '#906BD6'
+                    icon = 'file-tray-stacked-outline'
+                    count = '11'
+                >
+                    Repositórios
+                </MenuItem>
+                
+                <MenuItem
+                    color = '#FF8A37'
+                    icon = 'people-outline'
+                    count = '1'
+                >
+                    Organizações
+                </MenuItem>
+                
+                <MenuItem
+                    color = '#FDCB19'
+                    icon = 'star-outline'
+                    count = '5'
+                >
+                    Organizações
+                </MenuItem>
             </View>
         </View>
     );
