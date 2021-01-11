@@ -4,7 +4,8 @@ import { colors } from '../../styles';
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: colors.primary    
+        backgroundColor: colors.primary,
+        marginBottom: 10,
     },
 
     popular: {

@@ -6,6 +6,7 @@ import { colors } from './styles';
 import Header from './components/Header';
 import Biography from './components/Biography';
 import Body from './components/Body';
+import TabBar from './components/TabBar';
 
 export default function App(){
     return(
@@ -15,6 +16,7 @@ export default function App(){
                 <Biography />
                 <Body />
             </ScrollView>
+            <TabBar />
         </View>
     );
 }
