@@ -5,6 +5,7 @@ import { colors } from './styles';
 
 import Header from './components/Header';
 import Biography from './components/Biography';
+import Body from './components/Body';
 
 export default function App(){
     return(
@@ -12,6 +13,7 @@ export default function App(){
             <Header />
             <ScrollView>
                 <Biography />
+                <Body />
             </ScrollView>
         </View>
     );
